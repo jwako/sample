@@ -1,5 +1,7 @@
 require "sample/version"
 
 module Sample
-  # Your code goes here...
+  def self.version_string
+    "Sample version #{Sample::VERSION}"
+  end
 end
