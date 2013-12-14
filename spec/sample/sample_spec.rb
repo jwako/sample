@@ -4,4 +4,9 @@ describe Sample do
   it 'should return correct version string' do
     Sample.version_string.should == "Sample version #{Sample::VERSION}"
   end
+
+  it 'should return correct hello string' do
+  	Sample.hello.should == "Hello World!"
+  end
+
 end
