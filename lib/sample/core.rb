@@ -6,4 +6,8 @@ module Sample
   def self.hello
   	"Hello World!"
   end
+
+  def self.foo
+  	"Hello foo!"
+  end
 end

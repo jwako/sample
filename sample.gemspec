@@ -28,3 +28,4 @@ Gem::Specification.new do |s|
   end
   s.add_development_dependency "rspec", ">= 2"
 end
+

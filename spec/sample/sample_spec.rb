@@ -9,4 +9,8 @@ describe Sample do
   	Sample.hello.should == "Hello World!"
   end
 
+  it 'should return correct hoo string' do
+  	Sample.foo.should == "Hello foo!"
+  end
+
 end
